@@ -178,6 +178,14 @@ const createBarChart = (data) => {
         </div> */}
         <br /><br />
         <center>
+        <div style={{fontSize: 20, fontWeight: 650}}>
+          <span>Name: </span>
+          <span style={{color: "#94059f",}}>{patientData.name}</span>
+          {/* <br></br> */}
+          {/* <span>Age: </span>
+          <span style={{color: "#94059f",}}>4 years 2 months</span> */}
+        </div>
+        <br></br>
         <table border="4" style={{width: "50%", textAlign: "center", marginTop: "10px", border: "1px solid #d1d5db" , padding: "8px" }}>
                     <tr >
                         <th style={{ border: "1px solid #d1d5db", borderLeft:"0px", borderRight:"0px" ,  padding: "8px" }}>Domain</th>
